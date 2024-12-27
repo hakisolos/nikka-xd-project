@@ -5,7 +5,7 @@ const config = {
 	SESSION_ID: process.env.SESSION_ID || '',
 	API_KEY: process.env.API_KEY || 'nikka',
 	SUDO: process.env.SUDO || '',
-	API_ID: process.env.API_ID || 'https://nikka-api.us.kg',
+	API_ID: process.env.API_ID || 'https://server-j264.onrender.com',
 	BOT_INFO: process.env.BOT_INFO || 'hakisolos;nikka-md',
 	STICKER_PACK: process.env.STICKER_PACK || 'H4KI;XER',
 	WARN_COUNT: process.env.WARN_COUNT || 3,
