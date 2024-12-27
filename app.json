@@ -1,0 +1,34 @@
+{
+	"name": "Nikka",
+	"description": "Simple WhatsApp By Astro",
+	"logo": "https://avatars.githubusercontent.com/u/188756392?v=4",
+	"repository": "https://github.com/hakisolos/nikka-md",
+	"stack": "container",
+	"success_url": "/",
+	"buildpacks": [
+		{
+			"url": "heroku/nodejs"
+		}
+	],
+	"env": {
+		"SESSION_ID": {
+			"description": "Session ID for authentication or tracking.",
+			"required": true
+		},
+		"SUDO": {
+			"description": "User ID with sudo permissions for the bot.",
+			"value": "2349112171078",
+			"required": false
+		},
+		"BOT_INFO": {
+			"description": "Information about the bot, such as version or ID.",
+			"value": "hakisolos;Nikka-Md;",
+			"required": false
+		},
+		"STICKER_PACK": {
+			"description": "Set the bot sticker meta data",
+			"value": "H4KI;XER",
+			"required": false
+		}
+	}
+}
