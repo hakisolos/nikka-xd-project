@@ -533,9 +533,9 @@ axios@^1.7.9:
     form-data "^4.0.0"
     proxy-from-env "^1.1.0"
 
-"baileys@github:AstroX11/Baileys":
+"baileys@github:hakisolos/Baileys":
   version "6.7.9"
-  resolved "https://codeload.github.com/AstroX11/Baileys/tar.gz/267db6b77134f47da0f2d5b3071adbd7f776bd6f"
+  resolved "https://codeload.github.com/hakisolos/Baileys/tar.gz/267db6b77134f47da0f2d5b3071adbd7f776bd6f"
   dependencies:
     "@adiwajshing/keyed-db" "^0.2.4"
     "@hapi/boom" "^10.0.1"

@@ -1,6 +1,6 @@
 import { haki } from '#lib';
 import { remini, uploadFile, upload, NIKKA, removeBg } from '#utils';
-import { getBuffer } from 'nikka-utils';
+import { getBuffer } from 'xstro-utils';
 
 haki(
 	{

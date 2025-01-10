@@ -1,7 +1,7 @@
-import { bot } from '#lib';
+import { haki } from '#lib';
 import { NIKKA } from '#utils';
 
-bot(
+haki(
 	{
 		pattern: 'ai',
 		public: true,

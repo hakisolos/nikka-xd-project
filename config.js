@@ -2,7 +2,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const config = {
-	SESSION_ID: process.env.SESSION_ID || 'XSTRO_58_53_77',
+	SESSION_ID: process.env.SESSION_ID || '',
 	API_KEY: process.env.API_KEY || 'nikka',
 	SUDO: process.env.SUDO || '',
 	API_ID: process.env.API_ID || 'https://server-j264.onrender.com',

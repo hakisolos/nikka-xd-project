@@ -1,4 +1,4 @@
-import { bot } from '#lib';
+import { haki } from '#lib';
 import {
 	addBgm,
 	getBgmResponse,
@@ -8,7 +8,7 @@ import {
 	saveMessage,
 } from '#sql';
 
-bot(
+haki(
 	{
 		pattern: 'bgm',
 		desc: 'Show BGM command menu',

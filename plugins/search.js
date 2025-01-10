@@ -1,6 +1,6 @@
 import { haki } from '#lib';
 import { pinterest, NIKKA } from '#utils';
-import { getBuffer, getJson } from 'NIKKA-utils';
+import { getBuffer, getJson } from 'xstro-utils';
 
 haki(
 	{
